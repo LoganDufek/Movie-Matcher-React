@@ -1,0 +1,20 @@
+{
+  "name": "Movie-Matcher-React",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoganDufek/Movie-Matcher-React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoganDufek/Movie-Matcher-React/issues"
+  },
+  "homepage": "https://github.com/LoganDufek/Movie-Matcher-React#readme"
+}
