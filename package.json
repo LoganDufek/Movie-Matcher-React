@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/LoganDufek/Movie-Matcher-React/issues"
   },
-  "homepage": "https://github.com/LoganDufek/Movie-Matcher-React#readme"
+ "homepage": "http://LoganDufek.github.io/Movie-Matcher-React",  
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
