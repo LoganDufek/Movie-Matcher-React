@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgb(41, 0, 65);
+  padding-bottom: 200px;
 }
 
 .App-logo {
@@ -25,7 +27,10 @@
 }
 
 header {
-  font-size: 30px;
+  padding-top: 40px;
+  color: #e00069;
+  font-size: 50px;
+  font-weight: 600;
 }
 
 .App-link {
@@ -40,12 +45,175 @@ header {
     transform: rotate(360deg);
   }
 }
+main {
+  padding-top: 30px;
+  background-color: rgb(41, 0, 65);
+}
 
 .movie-poster{
   max-height: 400px;
   margin-top: 30px;
   margin-left: 20px;
   margin-bottom: 20px;
-  border: 4px solid #3d3d3d;
+  border: 5px #e00069;
   border-radius: 7px;
+  border-style:double;
+}
+
+.actor-container{
+  padding-bottom: 40px;
+  border: 3px solid #e00069;
+  margin: 10px 120px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  background-color: rgb(51, 17, 51);
+}
+
+.poster-container {
+  border-top: 3px solid #e00069;
+  margin-top: 50px;
+  padding-top: 20px;
+  
+}
+
+.actor-one, .movie-one{
+  
+  margin-bottom: 20px;
+  width: 30%;
+  text-align: center;
+  font-size: 23px;
+}
+
+.actor-label, .movie-label{
+  color: #e00069;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.actor-button{
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: #e00069;
+  border-style: none;
+}
+
+.actor-form p{
+   color: #e00069;
+   font-size: 30px;
+}
+
+.movie-info {
+  padding-top: 40px;
+  color: #e00069;
+ display: flex;
+ flex-direction: column;
+ width: 23%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.movie-info img {
+   border: 5px #e00069;
+  border-radius: 7px;
+  border-style:double;
+}
+
+.movie-info p {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 1150px) {
+
+
+  .movie-info {
+  padding-top: 40px;
+  color: #e00069;
+ display: flex;
+ flex-direction: column;
+ width: 55%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.actor-one, .movie-one{
+  
+  margin-bottom: 20px;
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .actor-one, .movie-one{
+    margin-bottom: 0px;
+  margin-bottom: 20px;
+  width: 60%;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+
+  .movie-info {
+  padding-top: 40px;
+  color: #e00069;
+ display: flex;
+ flex-direction: column;
+ width: 65%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.actor-container{
+  padding-bottom: 40px;
+  border: 3px solid #e00069;
+  margin: 10px 50px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  background-color: rgb(51, 17, 51);
+}
+
+}
+
+
+@media screen and (max-width: 540px) {
+
+  .actor-one, .movie-one{
+  
+  margin-bottom: 0px;
+  width: 80%;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+
+  .movie-info {
+  padding-top: 40px;
+  color: #e00069;
+ display: flex;
+ flex-direction: column;
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.actor-container{
+  padding-bottom: 40px;
+  border: 3px solid #e00069;
+  margin: 5px 25px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  background-color: rgb(51, 17, 51);
+}
+
 }
